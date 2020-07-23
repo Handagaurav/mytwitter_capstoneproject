@@ -4,10 +4,12 @@
     "type": "object",
     "properties": {
       "caption": {
-        "type": "string"
+        "type": "string",
+        "pattern": "^(?!\\s*$).+"
       },
       "isPublic": {
-        "type": "string"
+        "type": "string",
+        "pattern": "^(?!\\s*$).+"
       }
     },
     "additionalProperties": false
